@@ -8,4 +8,4 @@ def index():
 
 @app.get('/barcelona')
 def index():
-    return {'data': 'Welcome To App'}
+    return {'data': 'Messi, Fati, Griezman, Lenglet, Umtiti, Alba'}
