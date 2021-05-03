@@ -18,6 +18,7 @@ def index():
 def index():
     return {'data': 'Name:Jordi Alba, Age:30,Nationality:Spain'}
 
-@app.get('/barcelona/pique')
-def index():
+@app.get('/barcelona/{id}')
+def index(id):
+    if(id == "Pique")
     return {'data': 'Name:Gerard Pique, Age:31,Nationality:Spain'}
